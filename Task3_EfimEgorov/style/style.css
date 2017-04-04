@@ -1,0 +1,180 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    direction: rtl;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:840px;
+}
+
+nav ul li a {
+    display: inline-block;
+    float:right;
+    background-color: #232223;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    margin-right:10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+nav ul li a:hover {
+    display: inline-block;
+    float:right;
+    background-color: #08ddf8;
+    color: #212121;
+    width: 200px;
+    height:10%;
+    height: 30px;
+    padding-top: 10px;
+    margin-right:10px;
+    text-decoration: none;
+    text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.open {
+    display: inline-block;
+    float:right;
+    background-color: rgba(192, 184, 184, 0.8);
+    color: #232223;
+    width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    margin-right:10px;
+    font-weight:bold;
+    text-decoration: none;
+    text-align: center;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page1 {
+    display: inline-block;
+    background-color: rgba(198, 198, 198,0.9);
+    color: black;
+    width: 820px;
+    margin-right:10px;
+    text-decoration: none;
+    text-align: right;
+    margin-bottom:20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: darkred;
+    padding:20px;
+}
+
+img {
+    display:block;
+    float:left;
+    padding:20px;
+    border-radius: 10%;
+}
+
+.tohen {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding:10px;
+}
+
+.working li {
+    text-align:right;
+    text-decoration:none;
+    list-style:none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:10px;
+    margin-bottom:20px;
+}
+
+#johnbryce {
+    
+    display:block;
+    float:left;
+    margin-top: -65px;
+}
+
+#clal {
+    display:block;
+    float:left;
+    margin-top:30px;
+    margin-left: -170px;
+}
+
+
+table {
+    margin: 10px 0 30px 0;
+
+}
+
+    table tr th, table tr td {
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: #3B3B3B;
+        color: #FFF;
+        padding: 20px;
+        text-align: right;
+    }
+
+    table tr td {
+        background: #E5E5DB;
+        color: #47433F;
+        border-top: 1px solid #FFF;
+    }
+
+    
+#footer p {
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    background-color: rgba(192, 184, 184, 0.8);
+    border-radius: 10px 10px 10px 10px;
+    position:center;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:847px;
+    height:25px;
+}
+
+#footer a, #footer a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+    #footer a:hover {
+        color: #FFF;
+    }
+
+.img-border
+     {
+    border-radius: 10%;
+}
+
+.hobby p {
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #212121;
+        margin-top:30px;
+        padding: 20px;
+        text-align: center;
+        font-size:30px;
+        padding-top:20px;
+}
+
+
