@@ -149,7 +149,6 @@ span {
 
 span:hover {
     background-color: #6bf4f6;
-
     color: #083537;
 }
 a {
@@ -164,11 +163,11 @@ width:400px;
  }
 
 @font-face {
-  font-family: 'Alef';
-  src: url(/fonts/Alef-Regular.eot);
-    src: url(/fonts/Alef-Regular.svg);
-      src: url(/fonts/Alef-Regular.ttf);
-        src: url(/fonts/Alef-Regular.woff);
+  font-family: Alef;
+  src: url(../fonts/Alef-Regular.eot);
+    src: url(../fonts/Alef-Regular.svg);
+      src: url(../fonts/Alef-Regular.ttf);
+        src: url(../fonts/Alef-Regular.woff);
 
 }
 
