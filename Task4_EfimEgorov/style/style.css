@@ -90,7 +90,7 @@ h2 {
 
 #circle2 {
     margin-top:-20px;
-    margin-left:100px;
+
     display:block;
     float:left;
     background-color: #166865;
@@ -162,6 +162,15 @@ a {
      margin-right:auto;
 width:400px;
  }
+
+@font-face {
+  font-family: 'Alef';
+  src: url(/fonts/Alef-Regular.eot);
+    src: url(/fonts/Alef-Regular.svg);
+      src: url(/fonts/Alef-Regular.ttf);
+        src: url(/fonts/Alef-Regular.woff);
+
+}
 
 
 @keyframes tada {
@@ -394,7 +403,7 @@ width:400px;
     }
 }
 
-  @-webkit-keyframes shake {
+@-webkit-keyframes shake {
   0%, 100% {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -408,20 +417,7 @@ width:400px;
   transform: translate3d(10px, 0, 0);
   }
   }
-  @keyframes shake {
-  0%, 100% {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  }
-  10%, 30%, 50%, 70%, 90% {
-  -webkit-transform: translate3d(-10px, 0, 0);
-  transform: translate3d(-10px, 0, 0);
-  }
-  20%, 40%, 60%, 80% {
-  -webkit-transform: translate3d(10px, 0, 0);
-  transform: translate3d(10px, 0, 0);
-  }
-  }
+
 @keyframes slideInRight {
     0% {
         -webkit-transform: translateX(100%);
@@ -434,7 +430,8 @@ width:400px;
         transform: translateX(0);
     }
 }
-  @keyframes slideInLeft {
+
+@keyframes slideInLeft {
   0% {
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
