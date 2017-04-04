@@ -54,19 +54,19 @@ label {
 #consul {
     color: red;
     text-align: right;
-    font-family: "Alef Hebrew";
+    font-family: Alef;
     font-size: 20px;
 }
 
 h1 {
-    font-family: "Alef Hebrew";
+    font-family: Alef;
     font-size: 140px;
     color: #083537;
 }
 
 
 h2 {
-    font-family: "Alef Hebrew";
+    font-family: Alef;
     font-size: 30px;
     color: #963535;
 }
