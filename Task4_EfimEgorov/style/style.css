@@ -40,7 +40,7 @@ body {
 label {
     margin-right: 20px;
     padding: 10px;
-    font-family: Alef;
+    font-family: Alef Hebrew;
 }
 
 #main {
@@ -55,30 +55,23 @@ label {
 #consul {
     color: red;
     text-align: right;
-    font-family: Alef;
+    font-family: Alef Hebrew;
     font-size: 20px;
 }
 
 h1 {
-    font-family: Alef;
+    font-family: Alef Hebrew;
     font-size: 140px;
     color: #083537;
 }
 
 
 h2 {
-    font-family:Alef;
+    font-family:Alef Hebrew;
     font-size: 30px;
     color: #963535;
 }
 
-@font-face {
-    font-family: 'Alef';
-    src: url('Alef-Regular.eot');
-    src: url('Alef-Regular.eot?#iefix') format('embedded-opentype'), url('Alef-Regular.woff') format('woff'), url('Alef-Regular.ttf') format('truetype'), url('Alef-Regular.svg#alefregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 #circle {
     margin-top: -20px;
     margin-right: 100px;
@@ -111,13 +104,13 @@ li {
     padding-top: 10px;
     color: white;
     margin-right: 60px;
-    font-family: Alef;
+    font-family: Alef Hebrew;
     font-size: 18px;
 }
 
 p {
     padding-top: 30px;
-    font-family: Alef;
+    font-family: Alef Hebrew;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -149,13 +142,13 @@ span {
     opacity: 0.7;
     color: white;
     border-radius: 20px;
-    font-family:Alef;
+    font-family:Alef Hebrew;
 }
 
 span:hover {
         background-color: #6bf4f6;
         color: #083537;
-        font-family:Alef;
+        font-family:Alef Hebrew;
     }
 
 a {
