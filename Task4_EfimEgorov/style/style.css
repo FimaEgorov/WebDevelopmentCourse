@@ -155,6 +155,16 @@ a {
     text-decoration: none;
 }
 
+@font-face {
+  font-family: 'Alef Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/Alef-Regular.eot);
+  src: url(/fonts/Alef-Regular.eot#iefix) format('embedded-opentype'),
+       url(/fonts/Alef-Regular.woff) format('woff'),
+       url(/fonts/Alef-Regular.ttf) format('truetype');
+}
+
 #links {
     margin-top: 40px;
     margin-left: auto;
