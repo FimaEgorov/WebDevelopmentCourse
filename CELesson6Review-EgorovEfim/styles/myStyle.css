@@ -2,26 +2,6 @@ body {
     direction: rtl;
 }
 
-#recpie {
-    border: 1px solid black;
-    width: 400px;
-    height: 330px;
-    padding: 10px;
-    line-height: 20px;
-}
-
-#rehivim ul {
-    list-style: square;
-    margin-right: 20px;
-}
-
-#ofen ol {
-    margin-right: 20px;
-}
-
-#rehivim, #ofen {
-    padding-top: 20px;
-}
 
 #vacation {
     width: 500px;
