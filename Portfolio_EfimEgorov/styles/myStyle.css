@@ -192,7 +192,7 @@ a {
     background-color: rgba(57, 12, 53, 0.7);
     margin-left: auto;
     width: 950px;
-    height: 500px;
+    height: 480px;
     margin-right: 270px;
     margin-top: -560px;
     border-radius: 20px;
@@ -232,7 +232,7 @@ a {
 #box2 {
     background-color: rgba(1, 49, 3, 0.73);
     width: 950px;
-    height: 500px;
+    height: 480px;
     margin-right: 270px;
     margin-top: -560px;
     border-radius: 20px;
@@ -252,7 +252,7 @@ a {
     background-color: rgba(120, 48, 14, 0.78);
     margin-left: auto;
     width: 950px;
-    height: 500px;
+    height: 480px;
     margin-right: 270px;
     margin-top: -560px;
     border-radius: 20px;
@@ -273,7 +273,7 @@ a {
     background-color: rgba(90, 4, 4, 0.75);
     margin-left: auto;
     width: 950px;
-    height: 500px;
+    height: 480px;
     margin-right: 270px;
     margin-top: -560px;
     border-radius: 20px;
@@ -295,7 +295,7 @@ a {
     background-color: rgba(1, 49, 3, 0.73);
     margin-left: auto;
     width: 950px;
-    height: 500px;
+    height: 480px;
     margin-right: 270px;
     margin-top: -560px;
     border-radius: 20px;
@@ -450,7 +450,7 @@ audio {
     background-repeat: no-repeat;
     margin-right: 660px;
     border-radius: 20px;
-    margin-top: -420px;
+    margin-top: -430px;
 }
 
 #Trump {
@@ -499,6 +499,33 @@ audio {
     margin-top: -50px;
     padding-right: 750px;
 }
+
+    
+#footer p {
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+
+    border-radius: 10px 10px 10px 10px;
+    position:center;
+    padding-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    width:950px;
+    height:25px;
+}
+
+#footer a, #footer a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+    #footer a:hover {
+        color: #FFF;
+    }
+
 
 @-webkit-keyframes pulse {
     0% {
