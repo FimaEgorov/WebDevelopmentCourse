@@ -163,15 +163,8 @@ div#FAMILY.container{
   width:960px;
 }
 
-.containerfornav {
-      width:980px;
-  }
 
-.container {
-         width:960px;
-  }
-
-.container-fluid{
+.container, .container-fluid{
   width:960px;
 }/* forcing 960px grid */
 
