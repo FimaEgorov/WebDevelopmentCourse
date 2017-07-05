@@ -56,13 +56,13 @@ ul.nav.navbar-nav li a{
 
 h1#sitename.text-center.bg-primary{
   background-color:#fee9a8;
-  height:134px;
+  height:114px;
   position:relative;
 }
 
 h1#sitename strong{
   
-  padding-top:40px;
+  padding-top:30px;
   width:500px;
   display:block;
   margin:0 auto;
@@ -163,7 +163,15 @@ div#FAMILY.container{
   width:960px;
 }
 
-.container, .container-fluid{
+.containerfornav {
+      width:980px;
+  }
+
+.container {
+         width:960px;
+  }
+
+.container-fluid{
   width:960px;
 }/* forcing 960px grid */
 
@@ -204,7 +212,7 @@ ul.nav.navbar-nav.links{
 }
 
 section#house{
-  padding-top:264px;
+  padding-top:244px;
 }/* putting the house closer to the header */
 
 
@@ -327,7 +335,7 @@ div#formb.col-md-8.col-md-offset-2{
 
 .anchor{
   display: block;
-  height: 264px; /*same height as header*/
-  margin-top: -264px; /*same height as header*/
+  height: 244px; /*same height as header*/
+  margin-top: -244px; /*same height as header*/
   visibility: hidden;
 }
