@@ -1,4 +1,4 @@
-ul.nav.navbar-nav{
+﻿ul.nav.navbar-nav{
   margin:0 auto;
   float:none;
   clear:both;
@@ -191,10 +191,7 @@ div#footerpush.push{
 {
   background-image: url(../../assets/img/Repairman-Small.png);
 }
-.row{
-  padding: 10px 0 100px 0;
 
-}
 div#secondfooterrow.row{
   margin-left:146px;
   padding-bottom:-24px;
