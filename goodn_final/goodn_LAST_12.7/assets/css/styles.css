@@ -1,0 +1,327 @@
+ul.nav.navbar-nav{
+  margin:0 auto;
+  float:none;
+  clear:both;
+  width:fit-content;
+  padding:0;
+}/* forcing the grid on the nav */
+
+
+ul.nav.navbar-nav li{
+  color:white;
+  width:132px;
+  background-color:#727272;
+
+
+}
+
+.navbar-nav>li>.dropdown-menu{
+ background-color: #d8d8d8;
+ color:black;
+}
+
+.navbar-nav>li>.dropdown-menu a:hover{
+ background-color: #d8d8d8;
+ color:black;
+ font-size: 110%;
+}
+
+.dropdown-menu>li>a{
+  padding:3px 10px;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  background-image: linear-gradient(to bottom,#727272 0,#727272 100%);
+}
+
+ul.nav.navbar-nav li a{
+  text-align:center;
+  background-color: #d8d8d8;
+  color:black;!important
+  width:100%;
+}
+
+.page-header{
+  height:100%;
+  border-bottom:none; 
+  box-shadow:none;
+}
+
+.navbar-default{
+  background:none;
+  border:none;
+  box-shadow:none;
+  height: -10px;
+}
+
+h1#sitename.text-center.bg-primary{
+  background-color:#fee9a8;
+  height:104px;
+  position:relative;
+}
+
+h1#sitename strong{
+  
+  padding-top:20px;
+  width:500px;
+  display:block;
+  margin:0 auto;
+}
+
+h1#sitename strong span{
+  display:block;
+  font-size:58px;
+  color:black;
+
+}
+
+h1#sitename strong span:first-child{
+  float:right;
+}
+
+h1#sitename strong span:last-child{
+  float:left;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top{
+  font-size:17px;
+}
+
+.logo{
+ display:block;
+ width:176px;
+ height:176px;
+ background-image: url(../../assets/img/logo.png);
+ position:absolute;
+ top:50%;
+ right:50%;
+ z-index:1;
+ transform:translate(50%, -50%);
+}
+
+
+font-family: 'Arimo', sans-serif;html{
+}
+
+body{
+  font-family:'Arimo', sans-serif;
+}/* inc the chosen font */
+
+div{
+  direction:rtl;
+}/* forcing rtl */
+
+#head{
+  position:fixed;
+  margin:auto;
+  right:50%;
+  transform:translateX(50%);
+  width:100%;
+  z-index:2;
+ background-color:#3fa0e4;
+}/* making the logo appear, as a bg */
+
+body{
+  background:url(../../assets/img/Clouds-008-HQ-01.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:right top;
+  background-attachment:fixed;
+}/* fixing the BG */
+
+div#start.container{
+  background-image:url(../../assets/img/master51_image028.png);
+  background-size:contain;
+  height: 668px;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+  color:black;
+  font-size: 120%;
+}
+
+p.text-right{
+  color:BLACK;
+}
+
+div#bgstyle.container{
+  background-color:rgb(228,228,228);
+  border:15px solid #c19b72;
+}}/* styling the div */
+
+@media (min-width: 1200px) .container{
+  width:960px;
+}
+
+@media (min-width: 992px) .container{
+  width:960px;
+}
+
+.container, .container-fluid{
+  width:960px;
+}/* forcing 960px grid */
+
+div.media{
+  border:5px solid #a28686;
+}
+
+
+div#footerpush.push{
+  height:30px;
+}
+
+
+div#secondfooterrow.row{
+  margin-left:146px;
+  padding-bottom:-24px;
+}
+
+button.btn.btn-default.dropdown-toggle{
+  text-align:right;
+}
+
+a{
+  text-align:right;
+}
+
+span.caret{
+  margin-left:12px;
+}
+
+span.caret{
+  margin-right:7px;
+}
+
+ul.nav.navbar-nav.links{
+  padding-top:14px;
+  padding-left:218px;
+}
+
+section#house{
+  padding-top:233px;
+}/* putting the house closer to the header */
+
+
+div#repairspeak.alert.alert-success.text-nowrap.text-right{
+
+  position: absolute;
+  margin-right: 100px;
+
+}
+
+div#grandparow.row{
+
+  margin-top:135px;
+  position: absolute;
+  margin-right: 85px;
+}
+
+div#repairrow.row{
+  margin-right:-2px;
+  position: absolute;
+  top: 614px;
+}
+
+span{
+  font-size:18px;
+  text-decoration:inherit;
+  a:link;
+}
+
+div#footerpic.col-md-12{
+  padding-top:5px;
+  margin-left:100px;
+}
+
+img#elad{
+  margin-right:79px;
+}
+
+img#nitz{
+  margin-right:79px;
+}
+
+img#fima{
+  margin-right:79px;
+}
+
+div#sitemap.col-lg-4.col-md-4.col-sm-4.col-xs-4{
+  font-size:10px;
+  text-align:right;
+}
+
+div#site-map.row{
+  padding-right:18px;
+  padding-bottom:54px;
+  text-decoration:none;
+  text-align:right;
+}
+
+img#cat1{
+  margin-right:397px;
+  margin-bottom:49px;
+}
+
+img#cat1:hover{
+  transform:skewX(10deg);
+}
+
+img#cat2:hover{
+  transform:scale(1.5, 1.5);
+}/* sweet transforms on the cats */
+
+
+div#sitemap.col-md-6{
+  text-decoration:none;
+}
+
+div#sitemap2.col-md-6{
+  text-decoration:none;
+  font-size: 18px;
+}
+
+div#site-map.row a:link{
+}
+
+div#site-map.row a:link{
+  color:white;
+}
+
+div#site-map.row a:visited{
+  color:white;
+}/* making the links decoration unvisible */
+
+div#theteam.row{
+  padding-top: 10px;
+}
+
+div#formb.col-md-6{
+  border-color:rgb(63,150,219);
+  border-style:outset;
+  border-width:5px;
+  border-radius:30px;
+}/* even nicer border for the form :) */
+
+div#formb.col-md- + .col-md-offset-2{
+}
+
+div#hitlogo{
+  margin-left:109px;
+}
+
+div.push-20{
+  padding:20px;
+}
+
+div#formb.col-md-8.col-md-offset-2{
+  border-color:rgb(162,134,134);
+  border-style:inset;
+  border-radius:38px;
+}
+
+.anchor{
+  display: block;
+  height: 233px; /*same height as header*/
+  margin-top: -233px; /*same height as header*/
+  visibility: hidden;
+}
